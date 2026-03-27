@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/settings">
+
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="@string/dark_mode"
+            android:defaultValue="false"
+            app:icon="@drawable/ic_dark_mode" />
+
+        <SwitchPreferenceCompat
+            android:key="auto_save"
+            android:title="@string/auto_save"
+            android:summary="@string/auto_save_enabled"
+            android:defaultValue="true"
+            app:icon="@drawable/ic_save" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
